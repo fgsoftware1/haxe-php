@@ -4,16 +4,15 @@
  */
 
 use \php\Boot;
+use \php\Lib;
 
-/**
- * ...
- * @author Gabriel Aguiar
- */
 class Main {
 	/**
 	 * @return void
 	 */
 	public static function main () {
+		#Main.hx:5: characters 5-34
+		Lib::println("Haxe is great!");
 	}
 
 	/**
